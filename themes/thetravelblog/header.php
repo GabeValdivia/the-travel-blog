@@ -40,7 +40,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <div class="page-title">
                         <?php $description = get_bloginfo('description', 'display'); ?>
                         <h1 class="title"><span><?php echo $description; ?></span></h1>

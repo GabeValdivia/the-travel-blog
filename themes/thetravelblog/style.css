@@ -8,6 +8,25 @@
     Tags: HTML5, CSS3, Sidebar, Travel, Blog, Responsive
 */
 
+
+/*
+
+
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Libre Baskerville', serif;
+
+
+
+*/
+
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
 /* Navigation Styles */
 
 nav.main-navigation {
@@ -85,4 +104,13 @@ div.page-title h1 {
 div.page-title h1 span {
     position: relative;
     left: -10px;
+}
+
+@media (min-width: 768px) {
+    .home div.page-title {
+        margin-top: 240px;
+    }
+    div.page-title {
+        margin-top: 100px;
+    }
 }
