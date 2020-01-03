@@ -8,3 +8,43 @@
     Tags: HTML5, CSS3, Sidebar, Travel, Blog, Responsive
 */
 
+/* Navigation Styles */
+
+nav.main-navigation {
+    background-color: #008fd1;
+}
+
+nav.main-navigation ul {
+    margin-top: 25px;
+}
+
+nav.main-navigation ul li {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+nav.main-navigation ul li a {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+    nav.main-navigation ul li a {
+        margin-right: 20px;
+    }
+}
+
+nav.main-navigation ul li a:hover {
+    background-color: transparent;
+}
+
+
+.navbar-toggle {
+    border: 1px solid #fff;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}

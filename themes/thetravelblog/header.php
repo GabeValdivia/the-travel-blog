@@ -10,7 +10,7 @@
     <body>
 
     <header>
-        <nav>
+        <nav class="main-navigation">
             <div class="container">
                 <div class="row">
                     <div class="navbar-header">
