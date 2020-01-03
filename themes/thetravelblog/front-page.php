@@ -1,9 +1,5 @@
 <?php get_header(); ?>
 
-<?php 
-
-    echo "<h1>Hello from front-page.php!</h1>"
-
-?>
+    <h2 class="text-center">Latest Enteries</h2>
 
 <?php get_footer(); ?>
