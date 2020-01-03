@@ -7,7 +7,7 @@
     <title>Document</title>
     <?php wp_head(); ?>
 </head>
-    <body>
+    <body <?php body_class(); ?>>
         <?php $featured = wp_get_attachment_image_src(get_post_thumbnail_id(), 'full'); ?>
         <?php $featured = $featured[0]; ?>
         
