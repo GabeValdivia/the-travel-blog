@@ -14,4 +14,6 @@
     register_nav_menus(array(
         'main_menu' => __('Main Menu', 'thetravelblog')
     ));
+
+    add_theme_support('post-thumbnails');
 ?>
