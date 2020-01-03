@@ -10,15 +10,30 @@
     <body>
 
     <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <img class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/img/logo.png">
-                </div>
-                <div class="col-sm-8">
-                    main menu here
-                </div>
-            </div>
-        </div>
+        <nav>
+            <div class="container">
+                <div class="row">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                            <span class="sr-only">Toggle Navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <img class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/img/logo.png">
+                    </div><!-- .navbar-header -->
+                    <div class="navbar-right">
+                        <?php wp_nav_menu(array(
+                            'theme_location' => 'main_menu',
+                            'container_id' => 'navbar',
+                            'container_class' => 'collapse navbar-collapse',
+                            'menu_class' => 'nav navbar-nav navbar-right'
+
+                        ));                     
+                        ?>
+                    </div><!-- .navbar-right -->
+                </div><!-- row -->
+            </div><!-- .container -->
+        </nav><!-- .nav -->
     </header>
        

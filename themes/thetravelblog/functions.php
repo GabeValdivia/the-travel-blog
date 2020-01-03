@@ -10,4 +10,8 @@
 
     }
     add_action('wp_enqueue_scripts', 'ttb_styles');
+
+    register_nav_menus(array(
+        'main_menu' => __('Main Menu', 'thetravelblog')
+    ));
 ?>
