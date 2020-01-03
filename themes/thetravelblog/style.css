@@ -50,5 +50,19 @@ nav.main-navigation ul li a:hover {
 }
 
 .site-header {
-    height: 100vh;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+    .site-header {
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .home .site-header {
+        height: 800px;
+    }
 }

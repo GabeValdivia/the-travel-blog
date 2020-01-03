@@ -11,7 +11,7 @@
         <?php $featured = wp_get_attachment_image_src(get_post_thumbnail_id(), 'full'); ?>
         <?php $featured = $featured[0]; ?>
         
-    <header class="site-header" style="background-image: url(<?php echo $featured ?>); background-position: center center; background-size: cover;">
+    <header class="site-header" style="background-image: url(<?php echo $featured ?>);">
         <nav class="main-navigation">
             <div class="container">
                 <div class="row">
@@ -37,5 +37,16 @@
                 </div><!-- row -->
             </div><!-- .container -->
         </nav><!-- .nav -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="page-title">
+                        <?php $description = get_bloginfo('description', 'display'); ?>
+                        <h1 class="title"><span><?php echo $description; ?></span></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
        
