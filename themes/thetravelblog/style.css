@@ -48,3 +48,7 @@ nav.main-navigation ul li a:hover {
 .navbar-toggle .icon-bar {
     background-color: #fff;
 }
+
+.site-header {
+    height: 100vh;
+}
