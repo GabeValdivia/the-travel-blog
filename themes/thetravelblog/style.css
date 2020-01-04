@@ -358,9 +358,18 @@ footer a:hover {
 
 }
 
+footer .widget_recent_entries ul {
+    padding-left: 0;
+    font-weight: bold;
+}
+
 footer .widget_recent_entries li {
     list-style: none;
     margin-bottom: 10px;
+}
+
+footer .widget_recent_entries li a:hover {
+    color: #eca300;
 }
 
 footer .site-info {
