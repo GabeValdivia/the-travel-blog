@@ -41,6 +41,7 @@
             <div class="row">
                 <?php foreach($categories as $category): ?>
                     <div class="col-xs-6 col-md-6 col-lg-3 category">
+                        <i class="<?php echo $category->description; ?>" aria-hidden="true"></i>
                         <a href="<?php echo get_category_link($category->cat_ID); ?>">
                             <?php echo $category->name; ?>
                         </a>
