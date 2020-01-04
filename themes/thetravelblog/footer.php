@@ -8,7 +8,13 @@
                         </div>
                     </div>
                     <div class="col-sm-4">
-                            menu here
+                        <h3>Follow Us</h3>
+                        <?php 
+                            wp_nav_menu(array(
+                                'theme_location' => 'social_menu'
+                            ));
+                        
+                        ?>
                     </div>
                 </div>
             </div>

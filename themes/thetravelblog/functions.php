@@ -15,7 +15,8 @@
     add_action('wp_enqueue_scripts', 'ttb_styles');
 
     register_nav_menus(array(
-        'main_menu' => __('Main Menu', 'thetravelblog')
+        'main_menu' => __('Main Menu', 'thetravelblog'),
+        'social_menu' => __('Social Menu', 'thetravelblog')
     ));
 
     add_theme_support('post-thumbnails');
