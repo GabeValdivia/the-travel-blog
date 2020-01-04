@@ -33,4 +33,20 @@
         </div>
     </section>
 
+    <section class="categories container">
+            <h2 class="categories text-center">Categories</h2>
+
+            <?php $categories = get_categories(); ?>
+
+            <div class="row">
+                <?php foreach($categories as $category): ?>
+                    <div class="col-xs-6 col-md-6 col-lg-3 category">
+                        <a href="<?php echo get_category_link($category->cat_ID); ?>">
+                            <?php echo $category->name; ?>
+                        </a>
+                    </div>
+                <?php endforeach; ?>
+            </div>
+    </section>
+
 <?php get_footer(); ?>
