@@ -11,7 +11,17 @@
                         <h3>Follow Us</h3>
                         <?php 
                             wp_nav_menu(array(
-                                'theme_location' => 'social_menu'
+                                'theme_location' => 'social_menu',
+                                'container' => 'div',
+                                'container_id' => 'menu-social',
+                                'container_class' => 'menu',
+                                'menu_id' => 'social',
+                                'menu_class' => 'menu-items',
+                                'depth' => 1,
+                                'link_before' => '<span class="sr-only" >',
+                                'link_after' => '</span>',
+                                'fallback_cb' => '',
+                                'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s</ul>'
                             ));
                         
                         ?>
