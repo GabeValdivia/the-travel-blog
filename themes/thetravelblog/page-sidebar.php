@@ -15,7 +15,7 @@ get_header(); ?>
 
         <?php endwhile; ?>
 
-                <div class="col-sm-4 content-page">
+                <div class="col-sm-4">
                     <?php get_sidebar(); ?>
                 </div>
         </div>

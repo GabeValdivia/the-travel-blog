@@ -243,6 +243,23 @@ section.categories div.category a:hover {
     text-decoration: none;
 }
 
+/* Page with Sidebar Template */
+.page-template-page-sidebar section.content,
+.page-template-page-sidebar footer {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.page-template-page-sidebar .content-page {
+    box-shadow: 768px 0px 0px #e6e6e6;
+}
+
+.page-template-page-sidebar .content-page {
+    padding: 20px;
+    text-align: justify;
+}
+
 /* Footer Styles */
 footer {
     background-color: #008fd1;
