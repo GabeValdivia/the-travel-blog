@@ -263,3 +263,27 @@ footer .site-info {
     text-transform: uppercase;
     margin-top: 15px;
 }
+
+#social {
+    list-style: none;
+}
+
+#social li {
+    position: relative;
+    display: inline-block;
+}
+
+#social li a:before {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 5px;
+    font-family: 'fontAwesome';
+    font-size: 40px;
+    color: #fff;
+    content: '\f08e';
+}
+
+#social li a[href*="facebook.com"]::before{content: '\f082';}
+#social li a[href*="linkedin.com"]::before{content: '\f08c';}
+#social li a[href*="twitter.com"]::before{content: '\f081';}
+#social li a[href*="instagram.com"]::before{content: '\f16d';}
