@@ -43,6 +43,16 @@ h1,h2,h3,h4,h5 {
     margin-bottom: 20px;
 }
 
+.alignleft {
+    float: left;
+    margin-right: 20px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 20px;
+}
+
 
 
 /* Navigation Styles */
@@ -87,7 +97,7 @@ nav.main-navigation ul li a:hover {
 }
 
 .site-header {
-    height: 600px;
+    height: 500px;
     background-repeat: no-repeat;
     background-position: center center; 
     padding-top: 20px;
@@ -281,6 +291,7 @@ footer .site-info {
     font-size: 40px;
     color: #fff;
     content: '\f08e';
+    -webkit-font-smoothing: antialiased;
 }
 
 #social li a[href*="facebook.com"]::before{content: '\f082';}

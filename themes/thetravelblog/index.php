@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 
-<?php 
-
-    echo "Hello from index.php!"
-
-?>
-
+    <section class="container content">
+        <div class="row">
+            
+        </div>
+    </section>
+    
 <?php get_footer(); ?>
