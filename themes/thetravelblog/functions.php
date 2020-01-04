@@ -20,5 +20,18 @@
 
     add_theme_support('post-thumbnails');
 
-    add_image_size('entry', 750, 490, true)
+    add_image_size('entry', 750, 490, true);
+
+    function ttb_widgets() {
+        register_sidebar(array(
+            'name' => __('Footer Widget'),
+            'id' => 'footer_widget',
+            'description' => 'Widgets for the footer',
+            'before_widget' => '<div id="%1$s" class="widget col-sm-6 %2$s">',
+            'after_widget' => '</div>',
+            'before_title' => '<h3 class="widget-title">',
+            'after_title' => '</h3>'
+        ));
+    }
+    add_action('widgets_init', 'ttb_widgets');
 ?>
