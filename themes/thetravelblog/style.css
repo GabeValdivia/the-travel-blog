@@ -252,7 +252,7 @@ section.categories div.category a:hover {
 }
 
 .page-template-page-sidebar .content-page {
-    box-shadow: 768px 0px 0px #e6e6e6;
+    background-color: #fff;
 }
 
 .page-template-page-sidebar .content-page {
@@ -260,6 +260,38 @@ section.categories div.category a:hover {
     text-align: justify;
 }
 
+
+aside.sidebar-widget {
+    padding-top: 20px;
+}
+
+aside.sidebar-widget h3 {
+    font-size: 30px;
+}
+
+aside.sidebar-widget  li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+aside.sidebar-widget  li a,
+aside.sidebar-widget  li a:hover {
+    color: #008fd1;
+    text-decoration: none;
+}
+
+aside.sidebar-widget input#searchsubmit {
+    border: none;
+    background-color: #008fd1;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 15px;
+}
+
+aside.sidebar-widget form label {
+    display: none;
+}
 /* Footer Styles */
 footer {
     background-color: #008fd1;

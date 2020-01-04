@@ -33,6 +33,16 @@
             'before_title' => '<h3 class="widget-title">',
             'after_title' => '</h3>'
         ));
+
+        register_sidebar(array(
+            'name' => __('Sidebar Widget'),
+            'id' => 'sidebar_widget',
+            'description' => 'Widgets for the Sidebar',
+            'before_widget' => '<div id="%1$s" class="widget %2$s">',
+            'after_widget' => '</div>',
+            'before_title' => '<h3 class="widget-title">',
+            'after_title' => '</h3>'
+        ));
     }
     add_action('widgets_init', 'ttb_widgets');
 ?>
