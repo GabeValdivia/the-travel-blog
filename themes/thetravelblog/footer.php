@@ -12,6 +12,9 @@
                     </div>
                 </div>
             </div>
+            <p class="text-center site-info">
+                <?php bloginfo('name') ?> <?php echo date('Y'); ?>
+            </p>
 
         </footer>
         <?php wp_footer(); ?>

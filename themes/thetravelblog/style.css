@@ -206,12 +206,15 @@ section.categories div.category i {
 section.categories div.category:nth-child(1) i {
     color: #008fd1;
 }
+
 section.categories div.category:nth-child(2) i {
     color: #db0086;
 }
+
 section.categories div.category:nth-child(3) i {
     color: #9800d1;
 }
+
 section.categories div.category:nth-child(4) i {
     color: #eca300;
 }
@@ -223,11 +226,40 @@ section.categories div.category a {
     font-family: 'Libre Baskersville', serif;
     font-weight: 700;
     margin-bottom: 20px;    
-    text-transform: uppercase;
-    
-    
+    text-transform: uppercase;   
 }
 
 section.categories div.category a:hover {
     text-decoration: none;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #008fd1;
+    padding: 10px 0 0 0;
+    margin-top: 30px;
+    color: #fff;
+    text-align: justify;
+}
+
+footer a,
+footer a:hover {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+footer .widget_recent_entries li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+footer .site-info {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    background-color: #004d70;
+    margin: 0;    
+    padding: 10px 0;
+    text-transform: uppercase;
+    margin-top: 15px;
 }
