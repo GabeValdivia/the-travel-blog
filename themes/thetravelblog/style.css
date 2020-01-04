@@ -187,3 +187,47 @@ div.entry-content span {
     background-color: #0070a3;
 }
 
+/* Categories Section - Front Page */
+
+section.categories div.category {
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 20px;
+    background-clip: content-box;
+
+}
+
+section.categories div.category i {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+section.categories div.category:nth-child(1) i {
+    color: #008fd1;
+}
+section.categories div.category:nth-child(2) i {
+    color: #db0086;
+}
+section.categories div.category:nth-child(3) i {
+    color: #9800d1;
+}
+section.categories div.category:nth-child(4) i {
+    color: #eca300;
+}
+
+section.categories div.category a {
+    color: #000;
+    display: block;
+    font-size: 28px;
+    font-family: 'Libre Baskersville', serif;
+    font-weight: 700;
+    margin-bottom: 20px;    
+    text-transform: uppercase;
+    
+    
+}
+
+section.categories div.category a:hover {
+    text-decoration: none;
+}
