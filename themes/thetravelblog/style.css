@@ -298,6 +298,50 @@ aside.sidebar-widget input#searchsubmit {
 aside.sidebar-widget form label {
     display: none;
 }
+
+/* Contact Page*/
+div.contact-page {
+    margin-top: 50px;
+}
+
+.nf-form-fields-required {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    display: none;
+}
+
+/* .nf-field-element input,
+.nf-field-element textarea {
+    border: none !important;
+} */
+
+.nf-field-element input#nf-field-4 {
+    background-color: #008fd1;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.nf-field-element input#nf-field-4:hover {
+    color: #fff;
+    background-color: #db0086;
+    
+}
+
+.nf-error.field-wrap .nf-field-element::after {    
+    background: #db0086 !important;
+}
+
+.nf-error .nf-error-msg,
+.nf-error-msg, .ninja-forms-req-symbol {
+    color: #db0086!important;
+}
+
+.contact-page .nf-error .ninja-forms-field {
+    border-color: #db0086;
+}
+
 /* Footer Styles */
 footer {
     background-color: #008fd1;

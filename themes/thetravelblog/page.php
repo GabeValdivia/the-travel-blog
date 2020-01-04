@@ -4,7 +4,7 @@
         <div class="row">
 
         <?php if(is_page('contact')): ?>
-            <div class="col-sm-8 col-sm-offset-2">
+            <div class="col-sm-8 col-sm-offset-2 contact-page">
                 <?php
                     while(have_posts()): the_post( );
                     the_content();
