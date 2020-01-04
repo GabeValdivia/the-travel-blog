@@ -25,7 +25,9 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <img class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/img/logo.png">
+                        <a href="<?php echo esc_url(home_url('/')); ?>">
+                            <img class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/img/logo.png">
+                        </a>
                     </div><!-- .navbar-header -->
                     <div class="navbar-right">
                         <?php wp_nav_menu(array(
